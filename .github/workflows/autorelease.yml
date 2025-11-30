@@ -1,4 +1,4 @@
-name: Auto Release
+lname: Auto Release
 
 on:
   push:
@@ -20,8 +20,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VERSION_FILE: licomp_oslc_handbook/config.py
-  MODULE_CODE: licomp_oslc_handbook/*
+  VERSION_FILE: licomp_doubleopen/config.py
+  MODULE_CODE: licomp_doubleopen/*
   PYPI_PUBLISH: 1
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: github.repository == 'hesa/licomp-oslc-handbook'
+    if: github.repository == 'hesa/licomp-doubleopen'
 
     steps:
     - name: Checkout
@@ -41,8 +41,8 @@ jobs:
           echo "::error ::secrets.PYPI_API_TOKEN needs to be set for this action"
           exit 1
         fi
-        if [ -z "${{ secrets.LICOMP_OSLC }}" ]; then
-          echo "::error ::secrets.LICOMP_OSLC needs to be set for this action"
+        if [ -z "${{ secrets.LICOMP_DOUBLEOPEN }}" ]; then
+          echo "::error ::secrets.LICOMP_DOUBLEOPEN needs to be set for this action"
           exit 1
         fi
         if [ "${{ github.event_name == 'workflow_dispatch' }}" = "true" ]; then
@@ -99,7 +99,7 @@ jobs:
     - name: Build
       if: steps.release-needed.outputs.DO_RELEASE == 'true'
       run: |
-        mkdir licomp_oslc_handbook/data && make matrix
+        mkdir licomp_doubleopen/data && make matrix
         python3 setup.py build --verbose sdist bdist_wheel --universal
 
     - name: Commit new version
@@ -115,7 +115,7 @@ jobs:
       with:
         tag: ${{ steps.version-bump.outputs.new_version }}
         generateReleaseNotes: true
-        token: ${{ secrets.LICOMP_OSLC }}
+        token: ${{ secrets.LICOMP_DOUBLEOPEN }}
 
     - name: Publish package
       if: steps.release-needed.outputs.DO_RELEASE == 'true' && env.PYPI_PUBLISH == '1'
