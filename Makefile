@@ -9,7 +9,7 @@ MATRIX_FILE = licomp_doubleopen/data/doubleopen-bindist.json
 all: $(MATRIX_FILE)
 
 $(MATRIX_FILE):
-	PYTHONPATH=. matrix/create-matrix.py | jq . > $@
+	PYTHONPATH=. matrix/create_matrix.py | jq . > $@
 
 matrix: $(MATRIX_FILE)
 
