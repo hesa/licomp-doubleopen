@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# SPDX-FileCopyrightText: 2025 Henrik Sandklef
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+SCRIPT_DIR=$(dirname ${BASH_SOURCE[0]})/../
+
+if [ "$1" = "--local" ]
+then
+    shift
+    EXTRA_PYTHONPATH=:../licomp
+fi     
+if [ "$1" = "" ]
+then
+    ARGS="verify -il MIT -ol MIT"
+fi 
+
+echo PYTHONPATH=${EXTRA_PYTHONPATH}:${PYTHONPATH} ${SCRIPT_DIR}/licomp_doubleopen/__main__.py $* $ARGS | bash
