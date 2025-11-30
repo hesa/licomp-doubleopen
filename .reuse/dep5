@@ -24,11 +24,10 @@ Files: README.md
 Copyright: Henrik Sandklef
 License: GPL-3.0-or-later
 
-Files: licomp_oslc_handbook/data/*
+Files: licomp_doubleopen/data/doubleopen-bindist.json
 Copyright: Henrik Sandklef
 License: CC-BY-4.0
 
 Files: matrix/license-classifications.yml
 Copyright: 2024 Double Open Oy <support@doubleopen.org>, 2022-2023 HH Partners, Attorneys-at-law Ltd <doubleopen@hhpartners.fi>, 2021 The Linux Foundation® <legal@linuxfoundation.org>, 2015-2021 nexB, Inc. <info@nexb.com>
 License: CC0-1.0 AND CC-BY-4.0 AND CC-BY-3.0
-
