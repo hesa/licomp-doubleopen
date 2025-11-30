@@ -3,9 +3,9 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 import setuptools
-from licomp_oslc_handbook.config import licomp_oslc_handbook_version
-from licomp_oslc_handbook.config import description
-from licomp_oslc_handbook.config import module_name
+from licomp_doubleopen.config import licomp_doubleopen_version
+from licomp_doubleopen.config import description
+from licomp_doubleopen.config import module_name
 
 
 requirements = []
@@ -20,19 +20,19 @@ with open("README.md") as f:
     _long_description = f.read()
 
 setuptools.setup(
-    name='licomp_oslc_handbook',
-    version=licomp_oslc_handbook_version,
+    name='licomp_doubleopen',
+    version=licomp_doubleopen_version,
     author="Henrik Sanklef",
     author_email="hesa@sandklef.com",
     description=description.replace('\n', ' '),
     long_description=_long_description,
     long_description_content_type="text/markdown",
     license_files=('LICENSES/GPL-3.0-or-later.txt',),
-    url="https://github.com/hesa/licomp-oslc_handbook",
-    packages=['licomp_oslc_handbook'],
+    url="https://github.com/hesa/licomp-doubleopen",
+    packages=['licomp_doubleopen'],
     entry_points={
         "console_scripts": [
-            "licomp-oslc_handbook = licomp_oslc_handbook.__main__:main",
+            "licomp-doubleopen = licomp_doubleopen.__main__:main",
         ],
     },
     package_data={
