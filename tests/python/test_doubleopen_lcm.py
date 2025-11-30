@@ -15,7 +15,7 @@ from licomp_doubleopen.doubleopen import LicompDoubleOpen
 lo = LicompDoubleOpen()
 
 def test_supported():
-    assert len(lo.supported_licenses()) == 19
+    assert len(lo.supported_licenses()) == 26
     
 def test_license_is_supported():
     assert lo.license_supported("BSD-3-Clause")
@@ -27,7 +27,7 @@ def test_usecase_is_supported():
     assert lo.usecase_supported(UseCase.LIBRARY)
     
 def test_usecase_is_not_supported():
-    assert not lo.usecase_supported(UseCase.LIBRARY)
+    assert not lo.usecase_supported(UseCase.SNIPPET)
     
 def test_provisioning_is_supported():
     assert lo.provisioning_supported(provisioning=Provisioning.BIN_DIST)
