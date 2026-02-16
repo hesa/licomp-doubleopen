@@ -81,6 +81,8 @@ class LicompDoubleOpen(Licomp):
         compat_object = self.licenses[outbound][inbound]
         compat = compat_object['compatibility']
         reasons = compat_object['comment']
+        if not reasons:
+            reasons = 'Value from doubleopen\'s resources.'
         if reasons == []:
             reasons = None
         compat_value = self.ret_statuses[compat]
