@@ -8,7 +8,7 @@ Licomp DoubleOpen provides compatibility data:
 * when distributing a binary, linking to (e.g. linking to a library) Open Source components
 * the Open Source components are unmodified
 
-Licomp DoubleOpen uses Open Source License Compliance Handbook by The Fintech Open Source Foundation (www.finos.org).
+Licomp DoubleOpen uses [license-classifications.yml](https://github.com/doubleopen-io/policy-configuration/blob/main/license-classifications.yml) as found in [https://github.com/doubleopen-io/policy-configuration](https://github.com/doubleopen-io/policy-configuration) by [doubleOpen](https://doubleopen.io/).
 
 ## Introduction 
 
