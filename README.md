@@ -26,6 +26,7 @@ Licomp is used be the following compatibility resources:
 * [licomp-reclicense](https://github.com/hesa/licomp-reclicense) - (`pip install licomp-reclicense`)
 * [licomp-dwheeler](https://github.com/hesa/licomp-dwheeler) - (`pip install licomp-dwheeler`)
 * [licomp-osadl](https://github.com/hesa/licomp-osadl) - (`pip install licomp-osadl`)
+* [licomp-oslc-handbook](https://github.com/hesa/licomp-oslc-handbook)
 
 # Using Licomp DoubleOpen
 
