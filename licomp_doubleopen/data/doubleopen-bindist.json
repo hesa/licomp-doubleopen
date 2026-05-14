@@ -857,17 +857,17 @@
       "AGPL-3.0-only": {
         "compatibility": "no",
         "comment": [
-          "Inbound license \"AGPL-3.0-only\" has \"property:patent-clause\", but outbound license \"GPL-2.0-only\" does not.",
           "The inbound license \"AGPL-3.0-only\" is a copyleft license so you cannot use \"GPL-2.0-only\" as outbound license.",
+          "Inbound license \"AGPL-3.0-only\" has \"property:patent-clause\", but outbound license \"GPL-2.0-only\" does not.",
           "Inbound license \"AGPL-3.0-only\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-only\" does not."
         ]
       },
       "AGPL-3.0-or-later": {
         "compatibility": "no",
         "comment": [
-          "Inbound license \"AGPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-only\" does not.",
           "Inbound license \"AGPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-only\" does not.",
-          "The inbound license \"AGPL-3.0-or-later\" is a copyleft license so you cannot use \"GPL-2.0-only\" as outbound license."
+          "The inbound license \"AGPL-3.0-or-later\" is a copyleft license so you cannot use \"GPL-2.0-only\" as outbound license.",
+          "Inbound license \"AGPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-only\" does not."
         ]
       },
       "GPL-2.0-only": {
@@ -896,8 +896,8 @@
       "LGPL-3.0-or-later": {
         "compatibility": "no",
         "comment": [
-          "Inbound license \"LGPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-only\" does not.",
-          "Inbound license \"LGPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-only\" does not."
+          "Inbound license \"LGPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-only\" does not.",
+          "Inbound license \"LGPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-only\" does not."
         ]
       },
       "MPL-2.0": {
@@ -973,17 +973,17 @@
       "GPL-3.0-only": {
         "compatibility": "no",
         "comment": [
-          "Inbound license \"GPL-3.0-only\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
           "The inbound license \"GPL-3.0-only\" is a copyleft license so you cannot use \"GPL-2.0-or-later\" as outbound license.",
+          "Inbound license \"GPL-3.0-only\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
           "Inbound license \"GPL-3.0-only\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not."
         ]
       },
       "GPL-3.0-or-later": {
         "compatibility": "no",
         "comment": [
-          "Inbound license \"GPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
           "The inbound license \"GPL-3.0-or-later\" is a copyleft license so you cannot use \"GPL-2.0-or-later\" as outbound license.",
-          "Inbound license \"GPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not."
+          "Inbound license \"GPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
+          "Inbound license \"GPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not."
         ]
       },
       "BSD-3-Clause": {
@@ -994,16 +994,16 @@
         "compatibility": "no",
         "comment": [
           "The inbound license \"AGPL-3.0-only\" is a copyleft license so you cannot use \"GPL-2.0-or-later\" as outbound license.",
-          "Inbound license \"AGPL-3.0-only\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
-          "Inbound license \"AGPL-3.0-only\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not."
+          "Inbound license \"AGPL-3.0-only\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
+          "Inbound license \"AGPL-3.0-only\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not."
         ]
       },
       "AGPL-3.0-or-later": {
         "compatibility": "no",
         "comment": [
-          "Inbound license \"AGPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
+          "Inbound license \"AGPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not.",
           "The inbound license \"AGPL-3.0-or-later\" is a copyleft license so you cannot use \"GPL-2.0-or-later\" as outbound license.",
-          "Inbound license \"AGPL-3.0-or-later\" has \"property:patent-clause\", but outbound license \"GPL-2.0-or-later\" does not."
+          "Inbound license \"AGPL-3.0-or-later\" has \"property:antitivo-clause\", but outbound license \"GPL-2.0-or-later\" does not."
         ]
       },
       "GPL-2.0-only": {
