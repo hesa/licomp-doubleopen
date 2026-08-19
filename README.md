@@ -8,7 +8,7 @@ Licomp DoubleOpen provides compatibility data:
 * when distributing a binary, linking to (e.g. linking to a library) Open Source components
 * the Open Source components are unmodified
 
-Licomp DoubleOpen uses Open Source License Compliance Handbook by The Fintech Open Source Foundation (www.finos.org).
+Licomp DoubleOpen uses [license-classifications.yml](https://github.com/doubleopen-io/policy-configuration/blob/main/license-classifications.yml) as found in [https://github.com/doubleopen-io/policy-configuration](https://github.com/doubleopen-io/policy-configuration) by [doubleOpen](https://doubleopen.io/).
 
 ## Introduction 
 
@@ -26,6 +26,7 @@ Licomp is used be the following compatibility resources:
 * [licomp-reclicense](https://github.com/hesa/licomp-reclicense) - (`pip install licomp-reclicense`)
 * [licomp-dwheeler](https://github.com/hesa/licomp-dwheeler) - (`pip install licomp-dwheeler`)
 * [licomp-osadl](https://github.com/hesa/licomp-osadl) - (`pip install licomp-osadl`)
+* [licomp-oslc-handbook](https://github.com/hesa/licomp-oslc-handbook)
 
 # Using Licomp DoubleOpen
 
@@ -64,5 +65,3 @@ $ pip install -r requirements.txt
 $ pip install -r requirements-dev.txt
 $ pip install .
 ```
-
-
